@@ -1,0 +1,9 @@
+5602f078c889d6d1c1bb17196465a22ab62a8f49c1a35ff73ec018fd0ca53a58  dist\brand-store-1.0.0.zip
+5a2a2c19eaecadc55bc27d3d973f77f40ed7ade7673601c3caf7a6662fc4c6b0  dist\dashboard-1.0.0.zip
+4e3cd876d00322501c7386607e5b5b7d4f9cad1c0956b70243f8668beebf9c6f  dist\data-import-1.0.0.zip
+d8d983b53fdfdad8f9ab82bb56a5557013b828e96843ec2d40f8c29abcd2b80e  dist\ecommerce-1.0.0.zip
+7e5ef3bdf6559e9c6514fea50d2cb6911b6bf8e6ec3f149c24e6f5aca8fd0ab7  dist\inventory-logistics-1.0.0.zip
+45e004fa882a940cf5e48ef8e7734631acde38bd75bcc9eea60aabffe2d3e64f  dist\order-analytics-1.0.0.zip
+9bb71b4f65b7b3395c00007cd2719234745d86f6ca65ddeffbc85fdc0fdc6b83  dist\product-catalog-1.0.0.zip
+a0d6b6aa0486210e3c85c79068788ecd942f63fddfed13e641b0f41f1f578d5d  dist\system-admin-1.0.0.zip
+71a78f3d1b9e2e922f6624e0e306cb5cbd5056f1c57a73836b3188c50295ca1d  dist\task-center-1.0.0.zip
