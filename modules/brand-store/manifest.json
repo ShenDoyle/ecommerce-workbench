@@ -1,0 +1,12 @@
+{
+  "slug": "brand-store",
+  "name": "Brand store",
+  "type": "plugin",
+  "version": "1.0.0",
+  "host": "ecommerce",
+  "requires": [],
+  "entry": null,
+  "permissions": ["ecommerce.brand-store.view", "ecommerce.brand-store.manage"],
+  "provider": "Workspace\Ecommerce$(echo brand-store | sed 's/-/ /g;s/\b\(.\)/\U\1/;s/ //g')\Providers\ServiceProvider",
+  "cron_jobs": []
+}

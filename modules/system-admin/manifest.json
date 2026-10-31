@@ -1,0 +1,12 @@
+{
+  "slug": "system-admin",
+  "name": "System admin",
+  "type": "plugin",
+  "version": "1.0.0",
+  "host": "ecommerce",
+  "requires": [],
+  "entry": null,
+  "permissions": ["ecommerce.system-admin.view", "ecommerce.system-admin.manage"],
+  "provider": "Workspace\Ecommerce$(echo system-admin | sed 's/-/ /g;s/\b\(.\)/\U\1/;s/ //g')\Providers\ServiceProvider",
+  "cron_jobs": []
+}

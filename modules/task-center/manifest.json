@@ -1,0 +1,12 @@
+{
+  "slug": "task-center",
+  "name": "Task center",
+  "type": "plugin",
+  "version": "1.0.0",
+  "host": "ecommerce",
+  "requires": [],
+  "entry": null,
+  "permissions": ["ecommerce.task-center.view", "ecommerce.task-center.manage"],
+  "provider": "Workspace\Ecommerce$(echo task-center | sed 's/-/ /g;s/\b\(.\)/\U\1/;s/ //g')\Providers\ServiceProvider",
+  "cron_jobs": []
+}

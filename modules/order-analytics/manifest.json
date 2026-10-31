@@ -1,0 +1,12 @@
+{
+  "slug": "order-analytics",
+  "name": "Order analytics",
+  "type": "plugin",
+  "version": "1.0.0",
+  "host": "ecommerce",
+  "requires": [],
+  "entry": null,
+  "permissions": ["ecommerce.order-analytics.view", "ecommerce.order-analytics.manage"],
+  "provider": "Workspace\Ecommerce$(echo order-analytics | sed 's/-/ /g;s/\b\(.\)/\U\1/;s/ //g')\Providers\ServiceProvider",
+  "cron_jobs": []
+}

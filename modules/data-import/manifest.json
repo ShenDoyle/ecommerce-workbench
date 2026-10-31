@@ -1,0 +1,12 @@
+{
+  "slug": "data-import",
+  "name": "Data import",
+  "type": "plugin",
+  "version": "1.0.0",
+  "host": "ecommerce",
+  "requires": [],
+  "entry": null,
+  "permissions": ["ecommerce.data-import.view", "ecommerce.data-import.manage"],
+  "provider": "Workspace\Ecommerce$(echo data-import | sed 's/-/ /g;s/\b\(.\)/\U\1/;s/ //g')\Providers\ServiceProvider",
+  "cron_jobs": []
+}

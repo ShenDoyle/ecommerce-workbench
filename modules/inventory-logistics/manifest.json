@@ -1,0 +1,12 @@
+{
+  "slug": "inventory-logistics",
+  "name": "Inventory logistics",
+  "type": "plugin",
+  "version": "1.0.0",
+  "host": "ecommerce",
+  "requires": [],
+  "entry": null,
+  "permissions": ["ecommerce.inventory-logistics.view", "ecommerce.inventory-logistics.manage"],
+  "provider": "Workspace\Ecommerce$(echo inventory-logistics | sed 's/-/ /g;s/\b\(.\)/\U\1/;s/ //g')\Providers\ServiceProvider",
+  "cron_jobs": []
+}
