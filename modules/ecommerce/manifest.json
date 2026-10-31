@@ -1,0 +1,12 @@
+{
+  "slug": "ecommerce",
+  "name": "电商工作台",
+  "type": "workbench",
+  "version": "1.0.0",
+  "host": null,
+  "requires": ["brand-store", "data-import", "product-catalog"],
+  "entry": "/app/ecommerce",
+  "permissions": ["ecommerce.dashboard.view", "ecommerce.brand.view", "ecommerce.brand.manage", "ecommerce.import.view", "ecommerce.import.manage", "ecommerce.product.view", "ecommerce.product.manage", "ecommerce.order.view", "ecommerce.order.manage", "ecommerce.inventory.view", "ecommerce.task.view", "ecommerce.task.manage", "ecommerce.admin.view"],
+  "provider": "Workspace\Ecommerce\Providers\ServiceProvider",
+  "cron_jobs": []
+}
